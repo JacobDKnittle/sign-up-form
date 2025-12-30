@@ -20,7 +20,7 @@
 }
 
 .sidebar {
-    flex: 1 1 30%;
+    flex: 1 1 35%;
     height: 100vh;
     position: relative;
     background-image: url(./images/leaves.jpg);
@@ -58,5 +58,17 @@
     justify-content: center;
     gap: 150px;
     padding-left: 70px;
-    flex: 1 1 70%;
+    flex: 1 1 65%;
+}
+
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 42%;
+}
+
+.call-to-action span {
+    display: inline-block;
+    padding-top: 30px;
 }
