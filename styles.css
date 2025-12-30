@@ -51,3 +51,12 @@
     font-family: norseBold;
     color: white;
 }
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+    padding-left: 70px;
+    flex: 1 1 70%;
+}
